@@ -66,5 +66,7 @@ module HartlTutorial
     config.assets.version = '1.0'
 
     config.assets.initialize_on_precompile = false
+
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
