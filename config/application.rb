@@ -68,5 +68,7 @@ module HartlTutorial
     config.assets.initialize_on_precompile = false
 
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
+    I18n.enforce_available_locales = true
   end
 end
